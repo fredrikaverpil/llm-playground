@@ -3,7 +3,7 @@
 - Take one input, the topic for a YouTube video.
 - Get outputs: the YouTube video title and the YouTube video script.
 
-Uses ChatGPT (gpt-3.5-turbo) fed with research from Wikipedia.
+Uses ChatGPT (gpt-3.5-turbo) or GPT4all fed with research from Wikipedia.
 
 ## Quickstart
 
@@ -11,6 +11,10 @@ Uses ChatGPT (gpt-3.5-turbo) fed with research from Wikipedia.
 pip install -r requirements.txt
 streamlit run app.py
 ```
+
+## Optional: use local GPT4All model instead of OpenAI's ChatGPT
+
+Copy the GPT4All .bin file into the folder, next to `app.py` and run as described above.
 
 ## Example topic "machine learning"
 

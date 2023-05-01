@@ -1,11 +1,18 @@
-streamlit==1.22.0
+# Langchain
 langchain==0.0.153
 openai==0.27.5
 wikipedia==1.4.0
 chromadb==0.3.21
 tiktoken==0.3.3
 
-watchdog
+# GPT4All
+pyllamacpp==1.0.6
+pygpt4all==1.0.1
 
+# Streamlit UI
+watchdog
+streamlit==1.22.0
+
+# Linting
 black
 ruff

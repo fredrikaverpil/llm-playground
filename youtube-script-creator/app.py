@@ -1,13 +1,12 @@
 import os
+from pathlib import Path
 
 import streamlit as st
 from langchain import PromptTemplate
 from langchain.chains import LLMChain
-from langchain.llms import OpenAIChat
+from langchain.llms import GPT4All, OpenAIChat
 from langchain.memory import ConversationBufferMemory
 from langchain.utilities import WikipediaAPIWrapper
-
-API_KEY = os.environ["OPENAI_API_KEY"]
 
 # Streamlit
 st.title("YouTube script creator")
@@ -32,7 +31,15 @@ script_memory = ConversationBufferMemory(input_key="title", memory_key="chat_his
 
 # LLM
 # temperature: the higher value, the more random and less deterministic output
-llm = OpenAIChat(model_name="gpt-3.5-turbo", temperature=0.9)
+gpt4all_models = Path(".").glob("*gpt4all*.bin")
+if gpt4all_models:
+    gpt4all_model = next(gpt4all_models)
+    llm = GPT4All(model=str(gpt4all_model), temp=0.9)
+else:
+    api_key = os.environ["OPENAI_API_KEY"]  # you need this for OpenAI
+    llm = OpenAIChat(model_name="gpt-3.5-turbo", temperature=0.9)
+
+st.write(f"Using LLM: {llm.__class__.__name__}")
 
 # Chains
 title_chain = LLMChain(
