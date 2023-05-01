@@ -62,10 +62,10 @@ if prompt:
     st.write(title)
     st.write(script)
 
-    with st.expander("Title history"):
+    with st.expander("YouTube video title"):
         st.info(title_memory.buffer)
 
-    with st.expander("Script history"):
+    with st.expander("YouTube video script"):
         st.info(script_memory.buffer)
 
     with st.expander("Wikipedia reasearch"):
