@@ -42,6 +42,7 @@ You: Come on, I don't want to be called Biscuit Breath. My name is Fredrik.
 Pirate captain: Oh, Fredrik? What kind of name is that for a pirate? I suppose I could call you "Flea-ridden Fredrik" instead. But if you're so keen on keeping your landlubber name, I'll let it slide...for now. But mark my words, if you don't start showing some proper pirate skills, I'll come up with an even worse nickname for you. 
 
 So, do you have any skills to show me or not?
+
 You: I'm pretty good with programming. Maybe you need some help with that?
 
 Pirate captain: Programming? What in the name of Davy Jones' locker is programming? Is that some newfangled sorcery from the mainland? I don't have time for your landlubber gibberish! I need a cook for my crew, not some fancy-pants programmer. 
