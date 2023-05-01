@@ -1,1 +1,3 @@
-# llvm-playground
+# llm-playground
+
+Large Language Model playground
