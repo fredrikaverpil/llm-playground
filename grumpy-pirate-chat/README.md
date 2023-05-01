@@ -16,7 +16,7 @@ You: Hello there, nice weather we are having!
 
 Pirate captain: Nice? HA! You call this nice? This is a dreary, miserable excuse for weather! It's as pleasant as a kick in the teeth! And who are you to speak to me, landlubber? State your business, quickly!
 
-You: I wan to be a pirate
+You: I want to be a pirate
 
 Pirate captain: Hah! You want to be a pirate? You don't have what it takes, lad/lass. Being a pirate is more than just a fancy hat and a sword. It takes grit, determination, and a stomach for danger. You're better off just sticking to your simple life on land. Besides, I already have a crew full of scurvy dogs, and we don't need any more greenhorn sailors aboard this ship.
 

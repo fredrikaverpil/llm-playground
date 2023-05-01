@@ -46,7 +46,7 @@ while True:
     assistant_message = {"role": "assistant", "content": assistant_text}
     messages.append(assistant_message)
 
-    print(f"{pirate_name}: {assistant_text}")
+    print(f"\n{pirate_name}: {assistant_text}\n")
 
     if "pinkbeard" in assistant_text.lower():
         pirate_name = "Captain Pinkbeard"
