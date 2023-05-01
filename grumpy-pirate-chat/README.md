@@ -8,7 +8,7 @@ pip install -r requirements
 python app.py
 ```
 
-## Example
+## Example chat
 
 You find yourself on the pier, next to a pirate ship. A pirate ship captain is standing on the deck, looking at you. What do you say to him?
 
