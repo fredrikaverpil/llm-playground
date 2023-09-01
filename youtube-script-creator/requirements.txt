@@ -1,5 +1,5 @@
 # Langchain
-langchain==0.0.153
+langchain==0.0.246
 openai==0.27.5
 wikipedia==1.4.0
 chromadb==0.3.21
