@@ -11,7 +11,7 @@ pygpt4all==1.0.1
 
 # Streamlit UI
 watchdog
-streamlit==1.30.0
+streamlit==1.37.0
 
 # Linting
 black
